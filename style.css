@@ -1,0 +1,55 @@
+/* カスタムCSS */
+
+/* メインビュー */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+/* サービスカード */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* お問い合わせフォーム */
+form .form-label {
+    font-weight: bold;
+}
+
+form .btn {
+    width: 100%;
+}
+
+/* フッター */
+footer {
+    background-color: #333;
+    color: white;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+    header p {
+        font-size: 1.2rem;
+    }
+}
